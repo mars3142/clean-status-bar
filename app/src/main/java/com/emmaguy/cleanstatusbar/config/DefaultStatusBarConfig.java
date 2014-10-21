@@ -94,6 +94,11 @@ public class DefaultStatusBarConfig implements StatusBarConfig {
     }
 
     @Override
+    public Drawable getBluetoothDrawable() {
+        return getTintedDrawable(mResources, R.drawable.stat_sys_data_bluetooth, getForegroundColour());
+    }
+
+    @Override
     public Drawable getWifiDrawable() {
         return getTintedDrawable(mResources, R.drawable.stat_sys_wifi_signal_4_fully, getForegroundColour());
     }

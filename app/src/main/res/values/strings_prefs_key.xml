@@ -10,5 +10,6 @@
     <string name="key_signal_3g" translatable="false">signal_network_icon</string>
     <string name="key_signal_wifi" translatable="false">signal_wifi</string>
     <string name="key_gps" translatable="false">gps</string>
+    <string name="key_bluetooth" translatable="false">bluetooth</string>
 
 </resources>

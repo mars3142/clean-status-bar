@@ -11,6 +11,12 @@
         tools:src="@drawable/stat_sys_gps_on_16" />
 
     <ImageView
+        android:id="@+id/status_bar_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stat_sys_data_bluetooth" />
+
+    <ImageView
         android:id="@+id/status_bar_wifi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

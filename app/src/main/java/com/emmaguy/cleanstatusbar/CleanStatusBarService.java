@@ -70,7 +70,8 @@ public class CleanStatusBarService extends Service {
                 mPreferences.getClockTime(),
                 mPreferences.showWifiIcon(),
                 mPreferences.show3gIcon(),
-                mPreferences.showGpsIcon());
+                mPreferences.showGpsIcon(),
+                mPreferences.showBluetoothIcon());
 
         showNotification();
 

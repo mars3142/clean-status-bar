@@ -50,6 +50,10 @@ public class CleanStatusBarPreferences {
         return mSharedPreferences.getBoolean(mResources.getString(R.string.key_gps), false);
     }
 
+    public boolean showBluetoothIcon() {
+        return mSharedPreferences.getBoolean(mResources.getString(R.string.key_bluetooth), false);
+    }
+
     public boolean showWifiIcon() {
         return mSharedPreferences.getBoolean(mResources.getString(R.string.key_signal_wifi), false);
     }

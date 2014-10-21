@@ -22,6 +22,8 @@ public interface StatusBarConfig {
 
     Drawable getGPSDrawable();
 
+    Drawable getBluetoothDrawable();
+
     Drawable getWifiDrawable();
 
     int getRightPadding();

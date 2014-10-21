@@ -46,6 +46,10 @@
         android:key="@string/key_gps"
         android:title="@string/gps" />
 
+    <SwitchPreference
+        android:key="@string/key_bluetooth"
+        android:title="@string/bluetooth" />
+
     <com.emmaguy.cleanstatusbar.prefs.TimePreference
         android:key="@string/key_clock_time"
         android:title="@string/time" />
